@@ -1,0 +1,9 @@
+requests
+PyPDF2
+black
+pandas
+scikit-learn
+matplotlib
+faiss-cpu
+faiss-gpu
+pytorch

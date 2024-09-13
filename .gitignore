@@ -1,0 +1,78 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask specific
+instance/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# AWS
+.aws/
+*.pem
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Node.js (if applicable for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore virtual environments and lock files
+Pipfile
+Pipfile.lock
+poetry.lock
